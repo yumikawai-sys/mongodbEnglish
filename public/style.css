@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,200&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: auto;
+  overflow-x: hidden;
+  background-image: url(./image/laptop.jpg);
+  
+}
+
+.board-section {
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.board-section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.thread-section {
+  width: 70%;
+}
+
+.thread-section .single-thread {
+  margin-bottom: 20px;
+  box-shadow: 1px 0px 4px #201f1f;
+  padding: 30px 20px;
+  border-radius: 5px;
+}
+
+.form-section {
+  background-color: azure;
+  box-shadow: 1px 0px 3px #474747;
+  border-radius: 5px;
+  padding: 15px 100px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.input-section input {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.input-section button {
+  padding: 3px 10px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 50px;
+  background-color:rgba(221, 226, 226, 0.8);
+  background-blend-mode:lighten;
+}
+
+#searchbutton, #registerbutton, #randombutton {
+  /* background-color: rgb(255, 145, 0); */
+  padding: 0px 40px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 56px;
+  font-weight: bold;
+  list-style-type: none;
+  color: white;
+  margin-top: 130px;
+}
+li {
+  text-decoration: none;
+  border: rgb(255, 145, 0);
+  border-style: solid;
+  border-radius: 20px;
+  margin-left: 20px;
+  color: white;
+  background-color: rgb(255, 145, 0);
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.maintitle {
+  /* background-color:rgba(235, 245, 245, 0.8);
+  background-blend-mode:lighten; */
+  color:rgb(51, 144, 221);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.maintitle img {
+  margin-right: 40px;
+}
+.maintitle h1 {
+  font-family: 'Domine', serif;
+}
